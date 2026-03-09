@@ -176,6 +176,9 @@ MIT License – frei nutzbar und modifizierbar.
 
 <div align="center">
 
+**Entwickelt von [bagueDev](https://github.com/bagueDev/Vega56-64-MacOs-LLAMA.CPP-Launcher)**  
+[YouTube](https://youtube.com/@bague2010) · [GitHub](https://github.com/bagueDev)
+
 **Viel Spaß mit lokalen LLMs! 🤖**
 
 </div>
