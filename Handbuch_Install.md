@@ -256,7 +256,7 @@ In `~/.zshrc`:
 alias llm='python3 ~/llama-launcher.py'
 
 alias llm-qwen='cd ~/llama.cpp && ./build/bin/llama-server \
-  -m /Volumes/BagueDev/AIModells/LLM/GGUF/Qwen3-8B-Q4_K_M.gguf \
+  -m /AIModells/LLM/GGUF/Qwen3-8B-Q4_K_M.gguf \
   -ngl 99 --device Vulkan0 --ctx-size 4096 --port 8080'
 
 alias llm-update='cd ~/llama.cpp && git pull && \
@@ -288,11 +288,3 @@ source ~/.zshrc
 
 ---
 
-Wenn du willst, mache ich dir daraus auch:
-
-- eine **README-Version**  
-- eine **PDF‑optimierte Version**  
-- eine **Version mit Inhaltsverzeichnis & internen Links**  
-- oder eine **Version mit deinem persönlichen Branding‑Header**  
-
-Sag einfach Bescheid, wie du es haben möchtest.
