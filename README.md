@@ -1,4 +1,4 @@
-# Vega56/64 Launcher
+<img width="1383" height="730" alt="Bildschirmfoto 2026-03-09 um 23 02 18" src="https://github.com/user-attachments/assets/2a36500f-37b5-4545-8da6-81c2a97193bd" /># Vega56/64 Launcher
 
 <div align="center">
 
@@ -22,7 +22,7 @@ Wenn du eine **AMD RX Vega 56 oder 64** hast und damit lokal große Sprachmodell
 - eGPU-Unterstützung für unterbrechungsfreie Inference
 - Integrierter Chat – oder nutze den nativen llama-server
 
-> **TL;DR**: Keine Kommandozeile nötig. Modell auswählen → Starten → Chatten.
+Keine Kommandozeile nötig. Modell auswählen → Starten → Chatten.
 
 ---
 
@@ -153,25 +153,10 @@ Du kannst den llama-server auch mit anderen Tools nutzen:
 
 ---
 
-## Screenshots
+<img width="2538" height="1306" alt="Bildschirmfoto 2026-03-09 um 23 02 56" src="https://github.com/user-attachments/assets/dfb5039a-e287-46a1-94ab-5b72243e9f67" />
+<img width="1107" height="1140" alt="Bildschirmfoto 2026-03-09 um 23 02 32" src="https://github.com/user-attachments/assets/0d60d06f-ae2c-4d6f-982e-269f69d3f383" />
 
-```
-┌─────────────────────────────────────────────┐
-│  Vega56/64 Launcher                    ⟳   │
-├─────────────────────────────────────────────┤
-│  eGPU Status: ● AMD Vega 56 aktiv          │
-├─────────────────────────────────────────────┤
-│  Modell wählen:                             │
-│  ┌─────────────────────────────────────┐   │
-│  │ Qwen3-8B-Q5_K_M.gguf      4.3 GB   │   │
-│  └─────────────────────────────────────┘   │
-│                                             │
-│  Kontext: [4096]  GPU Layers: [20]         │
-│  Port: [8080]    Threads: [6]              │
-│                                             │
-│  [▶ Starten] [■ Stoppen] [Chat →] [🦙 Llama] │
-└─────────────────────────────────────────────┘
-```
+
 
 ---
 
