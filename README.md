@@ -62,7 +62,7 @@ Die Anzahl der **GPU Layers** bestimmt, wie viel vom Modell auf der GPU läuft:
 
 > > **⚠️ Thermische Warnung**: Vega 56/64 erreicht bei Vollast Junction-Temps von **110°C**. Dies kann zu Abstürzen führen. egpu-alive verlängert die Zeit, aber das Problem bleibt bestehen.Alternativ: GPU Layers reduzieren oder bessere Kühlung sicherstellen.
 
-> **Lösung unter Linux**: Das Powerlimit auf **145 Watt** reduzieren (z.B. via LACT TOOL`). Dies sorgt für stabile Laufzeiten bei gleichzeitig guter Performance. Da ich das am Mac nicht mehr testen kann, müsstet Ihr mal suchen ob es mittlerweile eine alternatives Tool vür Mac Os Intel existiert.  Alternativ: GPU Layers reduzieren oder bessere Kühlung sicherstellen.
+> **Lösung unter Linux**: Das Powerlimit auf **145 Watt** reduzieren (z.B. via LACT TOOL`). Dies sorgt für stabile Laufzeiten bei gleichzeitig guter Performance. Da ich das am Mac nicht mehr testen kann, müsstet Ihr mal suchen ob es mittlerweile eine alternatives Tool für Mac Os Intel existiert.  Alternativ: GPU Layers reduzieren oder bessere Kühlung sicherstellen.
 
 
 ---
