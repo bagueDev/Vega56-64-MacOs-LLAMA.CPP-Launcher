@@ -296,4 +296,13 @@ source ~/.zshrc
 | Kontext | `--ctx-size 4096` |
 
 ---
+**Viel Spaß mit lokalen LLMs! 🤖**
 
+---
+
+*Entwickelt von [bagueDev](https://github.com/bagueDev/Vega56-64-MacOs-LLAMA.CPP-Launcher) · [YouTube](https://youtube.com/@bague2010) · [GitHub](https://github.com/bagueDev)*
+
+</div>
+
+
+---
