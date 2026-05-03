@@ -159,8 +159,7 @@ Nutze: AMD Radeon RX Vega 56
 ```
 Wenn `AMD Radeon RX Vega 56` erscheint, ist die eGPU aktiv und wird gehalten.
 
-> **(Das Binary ist fetig vorhanden im Projektordner!)**
->
+
 > ## egpu-alive – Was macht das?
 
 egpu-alive ist ein Hilfsprogramm für macOS/Linux, das verhindert, dass **eGPUs während der Nutzung getrennt werden**:
@@ -174,11 +173,12 @@ egpu-alive ist ein Hilfsprogramm für macOS/Linux, das verhindert, dass **eGPUs 
 **Im Projektordner bereits enthalten:**
 - ✅ `egpu-alive` – Kompilierte Binary (macOS Swift)
 - ✅ `egpu-alive.swift` – Quellcode
+- 
 
 **Nutzung:**
 ```bash
 # macOS (Binary ist bereits im Ordner)
-cd /Volumes/Seagate\ Expansion/download\ 2/openCodeTest/
+cd /Verzeichnis
 ./egpu-alive &
 
 # Oder via Launcher-Button: "▶ egpu-alive starten"
@@ -277,15 +277,6 @@ Du kannst den llama-server auch mit anderen Tools nutzen:
 
 ---
 
-## egpu-alive – Was macht das?
-
-egpu-alive ist ein Hilfsprogramm für macOS/Linux, das verhindert, dass **eGPUs während der Nutzung getrennt werden**:
-
-- **Heartbeat/Timer**: Sendet regelmäßige Signale an die eGPU
-- **Verhindert Sleep/Idle**: Hält die eGPU aktiv
-- **Überwacht Verbindung**: Prüft, ob die eGPU noch erreichbar ist
-
-> **Wichtig für Vega 56/64**: eGPU-Verbindungen können bei Volllast abbrechen. egpu-alive hält die Verbindung aktiv. Ohne es: Risiko von Disconnects. Mit es: Stabile Inference.
 
 ---
 
