@@ -86,17 +86,24 @@ cd Vega56-64-MacOs-LLAMA.CPP-Launcher
 # Oder einfach start_last.py direkt nutzen
 python3 start_last.py
 ```
-
-### 3. llama.cpp Aktualisierung (Empfohlen: b9010)
+### 3. llama.cpp herunterladen & kompilieren (Empfohlen: b9010)
 
 ```bash
+# Repository klonen
+git clone https://github.com/ggml-org/llama.cpp.git ~/llama.cpp
 cd ~/llama.cpp
+
+# Neueste Version (b9010) auswählen
 git fetch --tags
 git checkout b9010
+
+# Kompilieren mit Vulkan-Support
 mkdir -p build && cd build
 cmake -DGGML_VULKAN=ON ..
 make -j$(nproc)  # Linux: nproc, macOS: sysctl -n hw.ncpu
 ```
+
+> **Ergebnis**: `~/llama.cpp/build/bin/llama-server` ist jetzt bereit.
 
 ### 4. Konfiguration
 
