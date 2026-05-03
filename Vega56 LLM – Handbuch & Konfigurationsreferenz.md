@@ -291,7 +291,7 @@ source ~/.zshrc
 | Modelle | `//` |
 | llama.cpp | `~/llama.cpp/` |
 | Continue Config | `~/.continue/config.yaml` |
-| Empfohlenes Modell | Qwen3‑8B‑Q4_K_M |
+| Empfohlenes Modell | Gemma 4 E4B |
 | GPU‑Parameter | `-ngl 99 --device Vulkan0` |
 | Kontext | `--ctx-size 4096` |
 
