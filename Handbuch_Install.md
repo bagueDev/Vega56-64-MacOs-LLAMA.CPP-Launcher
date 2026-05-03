@@ -38,15 +38,24 @@ brew install libomp vulkan-headers glslang molten-vk shaderc vulkan-loader
 
 ---
 
-### **2.2 llama.cpp kompilieren**
+### **2.2  llama.cpp herunterladen & kompilieren (Empfohlen: b9010)
 
 ```bash
-git clone https://github.com/ggerganov/llama.cpp.git
-cd llama.cpp
-cmake -B build -DGGML_METAL=OFF -DGGML_VULKAN=ON
-cmake --build build --config Release
+# Repository klonen
+git clone https://github.com/ggml-org/llama.cpp.git ~/llama.cpp
+cd ~/llama.cpp
+
+# Neueste Version (b9010) auswählen
+git fetch --tags
+git checkout b9010
+
+# Kompilieren mit Vulkan-Support
+mkdir -p build && cd build
+cmake -DGGML_VULKAN=ON ..
+make -j$(nproc)  # Linux: nproc, macOS: sysctl -n hw.ncpu
 ```
 
+> **Ergebnis**: `~/llama.cpp/build/bin/llama-server` ist jetzt bereit.
 ---
 
 ### **2.3 Vulkan‑Verbindung prüfen**
