@@ -71,7 +71,7 @@ Die Anzahl der **GPU Layers** bestimmt, wie viel vom Modell auf der GPU läuft:
 
 ### 1. Voraussetzungen
 
-- **Linux mit AMD Vega 56/64** (aktuell) **ODER** macOS mit AMD eGPU
+- **Mac OS Intel mit AMD Vega 56/64** (aktuell) **ODER** macOS mit AMD eGPU
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) **b9010+** (gebaut mit `cmake -DGGML_VULKAN=ON ..`)
 - **egpu-alive** – **Bereits kompiliert im Projektordner!** (macOS Binary: `./egpu-alive`)
   - Linux: Powerlimit auf 145W reduzieren (siehe thermische Warnung)
