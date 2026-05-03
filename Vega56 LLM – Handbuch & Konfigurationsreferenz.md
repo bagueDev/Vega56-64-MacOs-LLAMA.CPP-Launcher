@@ -285,7 +285,7 @@ source ~/.zshrc
 
 | Funktion | Befehl |
 |----------|--------|
-| Launcher starten | `python3 ~/llama-launcher.py` |
+| Launcher starten | `python3 ~/Vega.py` |
 | Browser | http://localhost:9999 |
 | API | http://localhost:8080/v1 |
 | Modelle | `//` |
