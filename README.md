@@ -426,7 +426,15 @@ Und das Beste: **Es ist alles lokal und privat.** Kein Code verlässt deine Masc
 → egpu-alive verlängert die Zeit, aber das Problem bleibt
 
 ---
+---
 
+### 📖 Weiterführende Dokumentation
+
+Für die vollständige Einrichtung – Vulkan-Kompilierung, llama.cpp Build-Optionen und Konfigurationsreferenz – bitte unbedingt auch das Handbuch lesen:
+
+➜ **[Vega56 LLM – Handbuch & Konfigurationsreferenz](Vega56-LLM-Handbuch.md)**
+
+> Enthält: Vulkan-Build auf macOS Intel, llama.cpp Flags, eGPU-Setup, empfohlene Startparameter und mehr.
 ---
 <img width="2538" height="1306" alt="Bildschirmfoto 2026-03-09 um 23 02 56" src="https://github.com/user-attachments/assets/dfb5039a-e287-46a1-94ab-5b72243e9f67" />
 
