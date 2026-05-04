@@ -316,21 +316,77 @@ MCP macht aus dem einfachen Chat-Interface einen vollwertigen lokalen AI-Agenten
 - Unterstützt große Kontexte (z.B. 32768)
 
 ---
+### 🔗 API Integration
 
-## API Integration
+Du kannst den llama-server auch mit anderen Tools nutzen – er spricht die OpenAI-kompatible API:
 
-Du kannst den llama-server auch mit anderen Tools nutzen:
-
-```yaml
-# Für Continue.dev, OpenWebUI, etc.
-- name: Vega56/64
-  provider: openai
-  model: <dein-modell>
-  apiBase: http://localhost:8080/v1
-  apiKey: none
+```
+http://localhost:8080/v1
 ```
 
 ---
+
+### 💻 VS Code + Continue Plugin – lokales Agentic Coding
+
+Ein besonders praktisches Beispiel: **Continue** (VS Code Extension) direkt mit deinem lokalen llama-server verbinden und damit agentenbasiert coden – komplett offline, komplett privat.
+
+#### Empfohlene Modelle
+
+Aus eigener Erfahrung funktionieren diese beiden besonders gut:
+
+| Modell | Stärken |
+|---|---|
+| `Qwen3.5-9B-Q5_K_M.gguf` | Stark bei Code, Tool-Use, strukturierten Aufgaben |
+| `Gemma-4-E4B-Q5_K_M.gguf` | Schnell, präzise, sehr gute Instruction-Following |
+
+> 📺 Gemma 4 haben wir auf unserem YouTube-Kanal **[bague2010](https://www.youtube.com/@bague2010)** ausführlich getestet – schau rein:
+> **[➜ Gemma 4 auf der Vega 56 – lokaler LLM Test](https://youtu.be/a9Rx96HdJog?si=I1m9zP_9Aj-GGkOa)**
+
+#### Setup in Continue (`~/.continue/config.yaml`):
+
+```yaml
+models:
+  - name: Vega56 Qwen3.5-9B
+    provider: openai
+    model: Qwen3.5-9B-Q5_K_M
+    apiBase: http://localhost:8080/v1
+    apiKey: none
+    roles:
+      - chat
+      - edit
+      - apply
+    maxTokens: 4096
+
+  - name: Vega56 Gemma-4-E4B
+    provider: openai
+    model: Gemma-4-E4B-Q5_K_M
+    apiBase: http://localhost:8080/v1
+    apiKey: none
+    roles:
+      - chat
+      - edit
+      - apply
+    maxTokens: 4096
+```
+
+#### Was du damit machen kannst:
+
+* **Tab-Completion** – Qwen3 vervollständigt deinen Code direkt im Editor
+* **Chat im Editor** – Fragen stellen, Refactoring, Erklärungen – alles lokal
+* **Agentic Mode** – Continue bearbeitet mehrere Dateien auf einmal, führt Änderungen durch, schlägt Fixes vor
+* **Codebase-Kontext** – Continue indiziert dein Projekt und gibt dem Modell relevanten Kontext
+
+---
+
+### 🎯 Wie gut funktioniert das?
+
+Ehrlich gesagt: **gut** – mit realistischen Erwartungen.
+
+Für **kleinere Projekte** läuft es richtig flott und macht echten Spaß. Gemma-4-E4B-Q5_K_M versteht Kontext, schreibt sauberen Code und korrigiert Fehler zuverlässig. Mit etwas **Kreativität beim Prompten** und dem richtigen Workflow kann man aber auch bei größeren Projekten erstaunlich viel erreichen – man muss nur ein bisschen experimentieren.
+
+Und das Beste: **Es ist alles lokal und privat.** Kein Code verlässt deine Maschine. Kein API-Abo, keine Rate Limits, kein Datenschutzproblem. Deine Projekte bleiben deine Projekte.
+
+> 💡 **Tipp:** Für beste Ergebnisse in Continue die Modelle mit `--jinja` starten (ist im Launcher bereits als Option verfügbar) – das aktiviert korrektes Chat-Template-Handling und verbessert Tool-Use bei beiden Modellen spürbar.
 
 
 ---
