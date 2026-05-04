@@ -52,7 +52,7 @@ Hier glänzt die Vega mit ihrem **HBM2-Speicher** (High Bandwidth Memory):
 |---|---|---|
 | Speichertyp | HBM2 | Extrem hohe Bandbreite |
 | Bandbreite | **~410 GB/s** | Schnelle Token-Generierung |
-| VRAM | **8 GB** | Qwen3-8B Q4/Q5 passt komplett rein |
+| VRAM | **8 GB** | Qwen3.5-9B-Q5_K_M passt komplett rein |
 
 Zum Vergleich: Eine RTX 3070 mit GDDR6 kommt auf ~448 GB/s – die Vega 56 ist also auf Augenhöhe mit einer deutlich neueren Gaming-GPU, wenn es um reine Inferenz-Geschwindigkeit geht.
 
