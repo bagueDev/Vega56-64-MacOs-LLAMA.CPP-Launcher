@@ -293,7 +293,7 @@ source ~/.zshrc
 | Continue Config | `~/.continue/config.yaml` |
 | Empfohlenes Modell | `Gemma 4 E4B` |
 | GPU‑Parameter | `-ngl 99 --device Vulkan0` |
-| Kontext | `--ctx-size 4096` |
+| Kontext | `--ctx-size 8192` |
 
 ---
 **Viel Spaß mit lokalen LLMs! 🤖**
