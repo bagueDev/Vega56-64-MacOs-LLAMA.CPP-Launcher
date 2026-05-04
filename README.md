@@ -279,10 +279,36 @@ Aktiviert durch `--jinja` Flag:
 - Jinja-Templates für Tool-Calling
 - Kompatibel mit Gemma 4, Llama 3, Mistral, etc.
 
-### 🦙 Llama-Button
-Neben dem Chat-Button gibt es jetzt einen **"🦙 Llama"** Button:
-- Öffnet den nativen llama-server Chat in neuem Tab
+
+### 🦙 Llama-Server & nativer Chat
+
+Neben dem Chat-Button gibt es jetzt einen **"🦙 Llama"-Button**:
+
+* Öffnet den nativen llama-server Chat in neuem Tab
 - Direkter Zugriff auf `http://localhost:8080`
+
+---
+
+### 💾 Chat-Verlauf & Speicherung
+
+Deine Gespräche gehen nicht verloren:
+
+* Chats werden automatisch lokal gespeichert
+* Verlauf bleibt auch nach Browser-Reload erhalten
+* Kein Account, kein Cloud-Sync – alles bleibt auf deiner Maschine
+
+---
+
+### 🔌 MCP Server – direkt im Launcher
+
+Der Launcher unterstützt das **Model Context Protocol (MCP)** – du kannst MCP-Server direkt einbinden und nutzen:
+
+* Verbinde Tools, APIs oder lokale Dienste per MCP
+* Der Launcher erkennt laufende MCP-Server automatisch
+* Ideal für Tool-Use und Function Calling in Kombination mit Jinja-Templates
+* Erweitert den Chat um echte Werkzeuge – Dateizugriff, Websuche, eigene Scripts und mehr
+
+MCP macht aus dem einfachen Chat-Interface einen vollwertigen lokalen AI-Agenten – ganz ohne Cloud.
 
 ### 📊 Kontext-Anzeige korrigiert
 - Zeigt jetzt den tatsächlichen Kontext-Wert aus dem Modell
