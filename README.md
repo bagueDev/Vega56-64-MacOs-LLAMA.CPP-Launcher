@@ -1,5 +1,5 @@
 <img width="985" height="525" alt="Bildschirmfoto 2026-05-04 um 00 30 34" src="https://github.com/user-attachments/assets/29b6c998-bffb-4134-ae33-ddd5a6244ece" />
-># Vega56/64 Launcher
+
 
 # Vega56/64 Launcher
 
