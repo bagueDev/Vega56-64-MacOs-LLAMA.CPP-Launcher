@@ -217,7 +217,7 @@ Browser öffnet sich automatisch:
 |--------|--------|
 | Qwen3‑8B Q4 | ~25 tok/s |
 | Phi‑3‑mini | ~40 tok/s |
-| CPU‑Modus | ~3–5 tok/s |
+| CPU‑Modus | ~3–5 tok/s | siehe Foto|
 
 <img width="1384" height="477" alt="Bildschirmfoto 2026-05-04 um 15 15 01" src="https://github.com/user-attachments/assets/5544ee94-0130-4bbc-ac7c-4c2a570b7df8" />
 
