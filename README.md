@@ -436,7 +436,7 @@ Und das Beste: **Es ist alles lokal und privat.** Kein Code verlässt deine Masc
 ├─────────────────────────────────────────────┤
 │  Modell wählen:                             │
 │  ┌─────────────────────────────────────┐   │
-│  │ Qwen3-8B-Q5_K_M.gguf      4.3 GB   │   │
+│  │Gemma-4-E4B-Q5_K_M      x.x GB   │   │
 │  └─────────────────────────────────────┘   │
 │                                             │
 │  Kontext: [32768]  GPU Layers: [20]        │
