@@ -78,7 +78,7 @@ ggml_vulkan: 1 = Intel(R) UHD Graphics 630 (MoltenVK) | uma: 1 | fp16: 1
 ### **3.1 Starten**
 
 ```bash
-python3 ~/llama-launcher.py
+python3 ~/AMD-VegaLLM.py
 ```
 
 Browser öffnet sich automatisch:  
@@ -285,7 +285,7 @@ source ~/.zshrc
 
 | Funktion | Befehl |
 |----------|--------|
-| Launcher starten | `python3 ~/Vega.py` |
+| Launcher starten | `python3 ~/AMD-VegaLLM.py` |
 | Browser | http://localhost:9999 |
 | API | http://localhost:8080/v1 |
 | Modelle | `//` |
