@@ -355,7 +355,7 @@ models:
       - chat
       - edit
       - apply
-    maxTokens: 4096
+    maxTokens: 8192
 
   - name: Vega56 Gemma-4-E4B
     provider: openai
@@ -366,7 +366,7 @@ models:
       - chat
       - edit
       - apply
-    maxTokens: 4096
+    maxTokens: 8192
 ```
 
 #### Was du damit machen kannst:
