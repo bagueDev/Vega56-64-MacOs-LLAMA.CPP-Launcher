@@ -40,7 +40,7 @@ Apple hat Intel Macs längst abgeschrieben. Aber mit einer Vega 56/64 an einem T
 
 ### Warum ist die Vega so gut für LLM-Inferenz geeignet?
 
-Die Vega 56/64 ist keine Gaming-GPU mehr – aber als Inference-Engine ist sie überraschend konkurrenzfähig. Der Grund liegt in der Architektur:
+Die Vega 56/64 ist keine "Gaming-GPU" mehr – aber als Inference-Engine ist sie überraschend konkurrenzfähig. Der Grund liegt in der Architektur:
 
 **Speicherbandbreite ist der Flaschenhals bei Inferenz, nicht Rechenleistung.**
 
