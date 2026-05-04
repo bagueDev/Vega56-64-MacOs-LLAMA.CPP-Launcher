@@ -20,7 +20,7 @@ Da macOS AMD‑GPUs nicht nativ über Metal für Compute freigibt, wird **llama.
 | **macOS** | Sequoia 15.7.4 (24G517)
 | **llama.cpp** | Kompiliert mit `GGML_VULKAN=ON`, `GGML_METAL=OFF` |
 | **MoltenVK** | v1.4+ via Homebrew |
-| **Launcher** | `llama-launcher.py` (Python 3, keine Dependencies) |
+| **Launcher** | `AMD-VegaLLM.py` (Python 3, keine Dependencies) |
 
 **Warum nicht Metal?**  
 macOS erlaubt eGPUs keinen direkten Metal‑Compute‑Zugriff für Drittanbieter‑Apps.  
