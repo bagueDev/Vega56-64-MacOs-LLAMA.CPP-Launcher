@@ -17,18 +17,46 @@
 
 ---
 
-## Warum Vega56/64 Launcher?
+## Warum Vega 56/64 Launcher?
 
-Wenn du eine **AMD RX Vega 56 oder 64** hast und damit lokal große Sprachmodelle (LLMs) laufen lassen willst, bist du hier richtig. Dieser Launcher macht es dir leicht:
+Wenn du eine AMD RX Vega 56 oder 64 hast und damit lokal große Sprachmodelle (LLMs) laufen lassen willst, bist du hier richtig. Dieser Launcher macht es dir leicht:
 
-- Modelle per WebUI auswählen und starten
-- Automatische Vulkan-Beschleunigung
-- eGPU-Unterstützung für unterbrechungsfreie Inference
-- Integrierter Chat – oder nutze den nativen llama-server
-- **MCP Support** für Model Context Protocol
-- **Jinja** für Tool-Use / Function Calling
+* Modelle per WebUI auswählen und starten
+* Automatische Vulkan-Beschleunigung
+* eGPU-Unterstützung für unterbrechungsfreie Inference
+* Integrierter Chat – oder nutze den nativen llama-server
+* MCP Support für Model Context Protocol
+* Jinja für Tool-Use / Function Calling
 
-> **TL;DR**: Keine Kommandozeile nötig. Modell auswählen → Starten → Chatten.
+---
+
+### Warum noch 2026? – Potenzial ausschöpfen statt wegwerfen
+
+Der Launcher entstand mit einem klaren Ziel: **ältere Intel Macs und eGPU-Setups sinnvoll weiterzunutzen** – auch und gerade in 2026.
+
+Apple hat Intel Macs längst abgeschrieben. Aber mit einer Vega 56/64 an einem Thunderbolt-eGPU-Gehäuse (z. B. Razer Core X) wird aus einem "veralteten" Mac mini oder MacBook Pro eine vollwertige, lokale LLM-Inference-Maschine. Kein Cloud-Abo, keine geteilten Ressourcen, volle Datenkontrolle.
+
+---
+
+### Warum ist die Vega so gut für LLM-Inferenz geeignet?
+
+Die Vega 56/64 ist keine Gaming-GPU mehr – aber als Inference-Engine ist sie überraschend konkurrenzfähig. Der Grund liegt in der Architektur:
+
+**Speicherbandbreite ist der Flaschenhals bei Inferenz, nicht Rechenleistung.**
+
+Bei jedem generierten Token müssen die kompletten Modellgewichte durch den Speicherbus geladen werden. Das bedeutet: GB/s zählen direkt, TFLOPS kaum.
+
+Hier glänzt die Vega mit ihrem **HBM2-Speicher** (High Bandwidth Memory):
+
+| Merkmal | Vega 56 | Bedeutung für LLMs |
+|---|---|---|
+| Speichertyp | HBM2 | Extrem hohe Bandbreite |
+| Bandbreite | **~410 GB/s** | Schnelle Token-Generierung |
+| VRAM | **8 GB** | Qwen3-8B Q4/Q5 passt komplett rein |
+
+Zum Vergleich: Eine RTX 3070 mit GDDR6 kommt auf ~448 GB/s – die Vega 56 ist also auf Augenhöhe mit einer deutlich neueren Gaming-GPU, wenn es um reine Inferenz-Geschwindigkeit geht.
+
+**Kurz:** Die Vega 56/64 ist eine der wenigen älteren GPUs, bei der sich der Weiterbetrieb für lokale LLMs wirklich lohnt – und dieser Launcher macht genau das so einfach wie möglich.
 
 ---
 
