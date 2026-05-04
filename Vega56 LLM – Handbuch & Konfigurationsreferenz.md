@@ -142,7 +142,7 @@ Browser öffnet sich automatisch:
 | 2048 | ~1500 | niedrig |
 | 4096 | ~3000 | mittel |
 | 8192 | ~6000 | ~7 GB |
-| 16384 | ~12000 | zu groß für Vega 56 |
+| 16384 | ~12000 | über 8GB|
 
 ---
 
@@ -152,10 +152,10 @@ Browser öffnet sich automatisch:
 
 | Modell | Größe | Speed | Empfehlung |
 |--------|--------|--------|------------|
-| **Qwen3‑8B‑Q4_K_M** | ~4.5 GB | ~25 tok/s | ⭐ Beste Wahl |
-| Qwen3‑8B‑Q5_K_M | ~5.5 GB | etwas langsamer | höhere Qualität |
-| Llama‑3‑8B‑Instruct | ähnlich | gut | Alternative |
-| Phi‑3‑mini‑128k | klein | ~40 tok/s | schnell, weniger präzise |
+| **Gemma-4-E4B-Q5_K_M** | ~5.3 GB | ~35 tok/s | ⭐ Beste Wahl | Tool Use |
+| Qwen3.5‑9B‑Q5_K_M | ~5.5 GB | ~20 tok/s | höhere Qualität | Tool Use |
+| Llama‑3‑8B‑Instruct | ähnlich | gut | Alternative | kein Tool Use |
+| Phi‑3‑mini‑128k | klein | ~40 tok/s | schnell, weniger präzise | kein Tool Use |
 
 ---
 
@@ -186,7 +186,7 @@ Browser öffnet sich automatisch:
 `~/.continue/config.yaml`:
 
 ```yaml
-- name: Vega56 Qwen3-8B
+- name: Vega56 Gemma-4-E4B-Q5_K_M*
   provider: openai
   model: local
   apiBase: http://localhost:8080/v1
