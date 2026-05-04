@@ -5,6 +5,7 @@
 
 <div align="center">
 
+![macOS Intel](https://img.shields.io/badge/macOS-Intel_2018--2020-silver?style=flat-square&logo=apple&logoColor=white)
 ![LLAMA.cpp](https://img.shields.io/badge/LLAMA.cpp-Vulkan-orange?style=flat-square)
 ![AMD Vega](https://img.shields.io/badge/AMD-RX_Vega_56/64-purple?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
