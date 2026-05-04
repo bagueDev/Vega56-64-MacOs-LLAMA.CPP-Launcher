@@ -1,0 +1,3 @@
+# Python 3.10+ required
+# All dependencies are part of the Python standard library (no pip packages needed)
+# Standard lib modules used: http.server, json, os, subprocess, threading, webbrowser, pathlib
