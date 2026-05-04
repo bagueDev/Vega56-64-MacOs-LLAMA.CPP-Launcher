@@ -25,7 +25,7 @@
 
 ---
 
-## [1.1.0] - 2026-03-09
+## [1.1.0] - 2026-05-03
 
 ### Added
 - **MCP Support** - `--webui-mcp-proxy` Flag für Model Context Protocol
