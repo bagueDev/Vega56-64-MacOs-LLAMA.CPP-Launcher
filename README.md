@@ -432,7 +432,7 @@ Und das Beste: **Es ist alles lokal und privat.** Kein Code verlässt deine Masc
 
 Für die vollständige Einrichtung – Vulkan-Kompilierung, llama.cpp Build-Optionen und Konfigurationsreferenz – bitte unbedingt auch das Handbuch lesen:
 
-➜ **[Vega56 LLM – Handbuch & Konfigurationsreferenz](Vega56-LLM-Handbuch.md)**
+➜ **Vega56 LLM – Handbuch & Konfigurationsreferenz**
 
 > Enthält: Vulkan-Build auf macOS Intel, llama.cpp Flags, eGPU-Setup, empfohlene Startparameter und mehr.
 ---
