@@ -1,4 +1,4 @@
-<img width="985" height="525" alt="Bildschirmfoto 2026-05-04 um 00 30 34" src="https://github.com/user-attachments/assets/29b6c998-bffb-4134-ae33-ddd5a6244ece" />
+
 
 
 # Vega56/64 Launcher
@@ -237,7 +237,10 @@ python3 start_last.py
 Der Browser öffnet sich automatisch auf `http://localhost:9999`.
 
 ---
+---
+<img width="985" height="525" alt="Bildschirmfoto 2026-05-04 um 00 30 34" src="https://github.com/user-attachments/assets/29b6c998-bffb-4134-ae33-ddd5a6244ece" />
 
+---
 ## Modell-Verzeichnisse hinzufügen
 
 1. Im Launcher: Pfad eingeben (z.B. `/home/user/AI_Models`)
