@@ -249,7 +249,10 @@ Der Browser öffnet sich automatisch auf `http://localhost:9999`.
 
 ---
 ---
-<img width="2538" height="1306" alt="Bildschirmfoto 2026-03-09 um 23 02 56" src="https://github.com/user-attachments/assets/dfb5039a-e287-46a1-94ab-5b72243e9f67" />
+
+
+<img width="1107" height="1140" alt="Bildschirmfoto 2026-03-09 um 23 02 32" src="https://github.com/user-attachments/assets/0d60d06f-ae2c-4d6f-982e-269f69d3f383" />
+
 
 ---
 ## Chat Template auswählen
@@ -425,9 +428,7 @@ Und das Beste: **Es ist alles lokal und privat.** Kein Code verlässt deine Masc
 ---
 
 ---
-
-
-<img width="1107" height="1140" alt="Bildschirmfoto 2026-03-09 um 23 02 32" src="https://github.com/user-attachments/assets/0d60d06f-ae2c-4d6f-982e-269f69d3f383" />
+<img width="2538" height="1306" alt="Bildschirmfoto 2026-03-09 um 23 02 56" src="https://github.com/user-attachments/assets/dfb5039a-e287-46a1-94ab-5b72243e9f67" />
 
 
 
