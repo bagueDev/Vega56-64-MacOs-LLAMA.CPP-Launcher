@@ -1,7 +1,7 @@
 
 
 
-# Vega56/64 Launcher
+# Vega56/64 LLAMA.CPP Launcher (eGPU Edition)
 
 <div align="center">
 
