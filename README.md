@@ -250,8 +250,8 @@ Der Browser öffnet sich automatisch auf `http://localhost:9999`.
 ---
 ---
 
+<img width="684" height="788" alt="Bildschirmfoto 2026-07-11 um 23 02 52" src="https://github.com/user-attachments/assets/3fe08885-26b3-4fb9-a9d3-7a0bc4da02d9" />
 
-<img width="1107" height="1140" alt="Bildschirmfoto 2026-03-09 um 23 02 32" src="https://github.com/user-attachments/assets/0d60d06f-ae2c-4d6f-982e-269f69d3f383" />
 
 
 ---
